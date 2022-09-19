@@ -59,7 +59,7 @@
 
 #nmbr="Jose"
 #saludo="Buenos dias"
-#print(nombre(saludo, nmbr))
+#nombre(saludo, nmbr)
 
 #def sald(sl:str, nm:str, sl1:str, edad:str, sl2:str)->str:
 #    print(sl, nm, sl1, edad, sl2)
@@ -71,13 +71,20 @@
 #nm=input("Ingrese su nombre: ")
 #edad=input("Ingrese su edad: ")
 
-#print(sald(sl, nm, sl1, edad, sl2))
+#sald(sl, nm, sl1, edad, sl2)
 
-##pendiente de terminar |
-##                      v
-#def edd(s:str, nb:str, s1:str, edd1:str, s2:str)->str:
-#    print(s, nb, s1, edd1, s2)
+#def edd(s:str, nb:str, s1:str, edd1:int, s2:str)->str:
+#    print(f"{s} '{nb}' {s1} {edd1} {s2}")
 #    return edd
+
+#s="Hola"
+#s1="tienes"
+#s2="años"
+#nb=input("Ingrese su nombre: ")
+#añoact=int(input("Ingrese el año actual: "))
+#añonc=int(input("Ingrese el año de nacimiento: "))
+#r=añoact-añonc
+#edd(s,nb,s1,r,s2)
 
 #s="Hola"
 #s1="tienes"
